@@ -1,7 +1,7 @@
 import java.util.*;
 class doloop2
 {
-    void main()
+    public static void main(String[] args)
     {
         int n,e=0,o=0,d;
         Scanner sc=new Scanner (System.in);

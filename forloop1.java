@@ -1,7 +1,7 @@
 import java.util.*;
 class forloop1 
 {
-    void main()
+    public static void main(String[] args)
     {
         Scanner sc= new Scanner(System.in);
         int l,i,h,f,c,n,m;
