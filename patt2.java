@@ -8,7 +8,7 @@ class patt2
         {
             for(j=1;j<=i;j++)
             {
-                System.out.print("\t*");
+            System.out.print("\t*");
             }
             System.out.println();
         }
