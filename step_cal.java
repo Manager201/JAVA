@@ -1,5 +1,5 @@
 import java.util.*;
-class swtch_step_cal
+class step_cal
 {
     public static void main(String[] args)
     
