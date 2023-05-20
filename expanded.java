@@ -12,7 +12,7 @@ class expanded
             c++;
             m=m/10;
         }
-        c=c-1;
+        c--;
         while(c!=0)
     {
         
