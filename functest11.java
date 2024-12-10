@@ -4,6 +4,7 @@ class functest11
   int start,end;
   functest11()
   {
-    int 
-  }  
+ int 
+  }
+  
 }
