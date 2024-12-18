@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "Launch Program",
+            "request": "launch",
+            "mainClass": "cyclo",
+            "cwd": "${workspaceFolder}/src"
+        }
+    ]
+}
