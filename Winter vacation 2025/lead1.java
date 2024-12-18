@@ -1,5 +1,5 @@
 import java.util.*;
-class lead
+class lead1
 {
     public static void main(String[] args) 
         {
@@ -14,6 +14,7 @@ class lead
             e=e+d;
             else
             o=o+d;
+            a=a/10;
            }
            if(e==o)
            System.out.println(b+" is a lead number");
