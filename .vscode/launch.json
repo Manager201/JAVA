@@ -3,17 +3,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "lead",
-            "request": "launch",
-            "mainClass": "lead",
-            "projectName": "JAVA_4e356704"
-        },
-        {
-            "type": "java",
             "name": "Run Java Program",
             "request": "launch",
             "mainClass": "cyclo",
-            "cwd": "/workspaces/JAVA/"
+            "cwd": "/workspaces/JAVA/Winter vacation 2025"
         }
     ]
 }
