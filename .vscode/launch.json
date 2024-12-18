@@ -6,7 +6,7 @@
             "name": "Run Java Program",
             "request": "launch",
             "mainClass": "cyclo",
-            "cwd": "/workspaces/JAVA/Winter vacation 2025"
+            "cwd": "/workspaces/JAVA/Winter vacation 2025/"
         }
     ]
 }
