@@ -8,16 +8,10 @@ class twist
             int a=sc.nextInt();
             String s1="",s2="";
             String a1=Integer.toString(a);   
-            int l=a1.length(),i;
-            for(i=0;i<l;i++)
-            {
-                char ch=a1.charAt(i);
-                if(i%2==0)
-                s1=s1+ch;
-                else
-                s2=s2+ch;
-            }
-            if(Integer.parseInt(s1)==Integer.parseInt(s2))
+            int l=a1.length();
+             s1=s1+a1.charAt(0);
+             s2=s2+a1.charAt(l-1);
+             if(Integer.parseInt(s1)%2==0&&Integer.parseInt(s2)%2!=0||Integer.parseInt(s1)%2!=0&&Integer.parseInt(s2)%2==0)
             System.out.println(a+" is a twist number");
             else 
             System.out.println(a+" is not a twist number");
