@@ -3,7 +3,7 @@ import java.util.*;
 class fascinating {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter a number");
+        System.out.println("Enter a number:");
         int a, i = 0, n, m, d, c = 0, e = 0;
         String w = "";
         a = sc.nextInt();
