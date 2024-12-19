@@ -17,8 +17,8 @@ class prog9 {
     }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter order of matrix");
-        int n = sc.nextInt(), i, j, k;
+        System.out.println("Enter order of matrix:");
+        int n = sc.nextInt(), i, j, k,s=0;
         int a[][] = new int[n][n];
         System.out.println("Enter numbers in the array");
         for (i = 0; i < n; i++)
@@ -62,5 +62,12 @@ class prog9 {
                     System.out.print("\t");
             System.out.println();
         }
+        System.out.print("The sum of the diagonal elements = ");
+        for (i = 0; i < n; i++) {
+            for (j = 0; j < n; j++) 
+            if (i + j == n - 1 || i == j) 
+                s=s+a[i][j];
+        }
+        System.out.println(s);
     }
 }
