@@ -10,7 +10,7 @@ class prog11 {
         int s = 0, d = 0;
         String mon = "", date = "";
         for (int i = 1; i < m.length; i++) {
-            s += m[i];
+            s =s + m[i];
             if (s >= dn) {
                 mon = mn[i];
                 d = dn - (s - m[i]);
