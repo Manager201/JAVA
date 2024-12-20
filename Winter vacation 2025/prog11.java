@@ -1,24 +1,29 @@
 import java.util.*;
-class prog11 {
+class prog11 
+{
     int[] m = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
     String[] mn = { "0", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "Sept", "Oct", "Nov", "Dec" };
 
-    public String check(int dn, int y) {
+    public String check(int dn, int y) 
+    {
         if (y % 4 == 0 && (y % 100 != 0 || y % 400 == 0))
             m[2] = 29;
 
         int s = 0, d = 0;
         String mon = "", date = "";
-        for (int i = 1; i < m.length; i++) {
-            s =s + m[i];
-            if (s >= dn) {
+        for (int i = 1; i < m.length; i++) 
+        {
+            s += m[i];
+            if (s >= dn) 
+            {
                 mon = mn[i];
                 d = dn - (s - m[i]);
                 break;
             }
         }
 
-        switch (d % 10) {
+        switch (d % 10) 
+        {
             case 1:
                 if (d == 11)
                     date = d + "th";
@@ -44,7 +49,8 @@ class prog11 {
         return date + " " + mon + " " + y;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Day Number = ");
@@ -52,7 +58,8 @@ class prog11 {
         System.out.println("Year = ");
         int y = sc.nextInt();
 
-        if (y % 4 != 0 && dn == 366) {
+        if (y % 4 != 0 && dn == 366) 
+        {
             System.out.println("Invalid Day Number!");
             System.exit(0);
         }
@@ -60,15 +67,18 @@ class prog11 {
         System.out.println("Date before (n) = ");
         int n = sc.nextInt();
 
-        if (y < 1000 || y > 9999) {
+        if (y < 1000 || y > 9999) 
+        {
             System.out.println("Invalid year");
             System.exit(0);
         }
-        if (n > dn) {
+        if (n > dn) 
+        {
             System.out.println("Date before " + n + " days does not lie in the same year.");
             System.exit(0);
         }
-        if (n < 1 || n > 366) {
+        if (n < 1 || n > 366) 
+        {
             System.out.println("Invalid date");
             System.exit(0);
         }
