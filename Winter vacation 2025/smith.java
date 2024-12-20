@@ -1,4 +1,43 @@
 import java.util.*;
+class smith
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a number:");
+        int n=sc.nextInt();
+        int o=n,m=n,i=2,d,s=0,s1=0,b,c=0;
+        while(n!=0)
+        {
+            d=n%10;
+            c++;
+            s=s+d;
+            n=n/10;
+        }
+        while(m!=1)
+        {
+            if(m%1==0)
+            {
+                b=1;
+                while(b!=0)
+                {
+                    d=b%10;
+                    s1=s1+d;
+                    b=b/10;
+                }
+                m=m/i;
+            }
+            else
+            i++;
+        }
+        if(s==s1)
+        System.out.println(o+" is a smith number");
+        else
+        System.out.println(o+" is not a smith number");
+    }
+}
+
+/**
+ import java.util.*;
 
 class smith {
     static int sumof(int m) {
@@ -42,3 +81,5 @@ class smith {
         }
     }
 }
+
+ */
