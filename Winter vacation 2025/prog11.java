@@ -6,7 +6,7 @@ class prog11
 
     public String check(int dn, int y) 
     {
-        if (y % 4 == 0 && (y % 100 != 0 || y % 400 == 0))
+        if (y % 4 == 0)
             m[2] = 29;
 
         int s = 0, d = 0;
