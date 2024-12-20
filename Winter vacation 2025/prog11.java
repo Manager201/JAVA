@@ -1,14 +1,15 @@
 import java.util.*;
+
 class prog11 {
-    int[] m = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
-    String[] mn = {"0", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "Sept", "Oct", "Nov", "Dec"};
+    int[] m = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+    String[] mn = { "0", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "Sept", "Oct", "Nov", "Dec" };
 
     public String check(int dn, int y) {
         if (y % 4 == 0 && (y % 100 != 0 || y % 400 == 0))
             m[2] = 29;
 
         int s = 0, d = 0;
-        String mon = "";
+        String mon = "", date = "";
         for (int i = 1; i < m.length; i++) {
             s += m[i];
             if (s >= dn) {
@@ -18,16 +19,24 @@ class prog11 {
             }
         }
 
-        String date = "";
         switch (d % 10) {
             case 1:
-                date = (d == 11) ? d + "th" : d + "st";
+                if (d == 11)
+                    date = d + "th";
+                else
+                    date = d + "st";
                 break;
             case 2:
-                date = (d == 12) ? d + "th" : d + "nd";
+                if (d == 12)
+                    date = d + "th";
+                else
+                    date = d + "nd";
                 break;
             case 3:
-                date = (d == 13) ? d + "th" : d + "rd";
+                if (d == 13)
+                    date = d + "th";
+                else
+                    date = d + "rd";
                 break;
             default:
                 date = d + "th";
