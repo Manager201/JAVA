@@ -56,6 +56,11 @@ class prog11
 
         System.out.println("Day Number = ");
         int dn = sc.nextInt();
+        if(dn>366||dn<1)
+        {
+            System.out.println("Invalid Date");
+            System.exit(0);
+        }
         System.out.println("Year = ");
         int y = sc.nextInt();
 
