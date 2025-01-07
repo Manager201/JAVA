@@ -7,7 +7,7 @@ Output = 30004 is a zippo number
 import java.util.*;
 class pg4_zippo
 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
         {
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter a number");
@@ -30,5 +30,4 @@ class pg4_zippo
             else
             System.out.println(a+" is not a zippo number");
         }
-    }
 }
