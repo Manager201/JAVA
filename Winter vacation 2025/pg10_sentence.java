@@ -7,11 +7,12 @@ Input = A MORNING WALK IS A BLESSING FOR THE WHOLE DAY.
 Output = A MO RNI NGWA LKISA BLESSI NGFORTH EWHOLEDA Y.
  */
 import java.util.*;
-class pg10_sentence {
-    public static void main(String[] args) {
+class pg10_sentence 
+{
+    public static void main(String[] args) 
+    {
         String str = "", s = "", s1 = "";
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Enter a sentence");
         str = sc.nextLine();
         if (str.endsWith(".") || str.endsWith("?")) 
