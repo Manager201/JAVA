@@ -1,3 +1,9 @@
+/* Program 1:
+Write a program to input a number and check whether it is a Cyclo No. or not.
+
+Input = 3453
+Output = 3453 is a cyclo number
+ */
 import java.util.*;
 class cyclo
 {

@@ -1,5 +1,10 @@
-import java.util.*;
+/* Program 7
+Write a program to input a number and check whether it is a Fascinating No. or not.
 
+Input = 273
+Output = 273 is a fascinating number
+ */
+import java.util.*;
 class fascinating {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

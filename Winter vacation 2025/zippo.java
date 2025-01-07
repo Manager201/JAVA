@@ -1,3 +1,9 @@
+/* Program 4:
+Write a program to input a number and check whether it is a Zippo No. or not.
+
+Input = 30004
+Output = 30004 is a zippo number
+ */
 import java.util.*;
 class zippo
 {

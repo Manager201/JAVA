@@ -1,3 +1,9 @@
+/* Program 6:
+Write a program to input a number and check whether it is a Special No. or not.
+
+Input = 145
+Output = 145 is a special number
+ */
 import java.util.*;
 class special
 {

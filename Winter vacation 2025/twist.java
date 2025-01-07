@@ -1,3 +1,9 @@
+/* Program 3:
+Write a program to input a number and check whether it is a Twist No. or not.
+
+Input = 2345
+Output = 2345 is a twist number
+ */
 import java.util.*;
 class twist
 {

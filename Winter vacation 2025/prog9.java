@@ -1,3 +1,33 @@
+/* Program 9:
+Write a program to declare a square matrix a [ ][ ] of order n x n, allow the user to input positive integers
+into this matrix. Perform the following tasks:
+a) Display the original matrix.
+b) Sort the elements of each row in ascending order using any standard sorting technique and
+rearrange them in the matrix. Display the rearranged matrix.
+c) Display only the diagonal elements of the rearranged matrix with their sum.
+
+Input: n = 4
+8       5       3       17
+6       12      9       8
+19      5       16      3
+4       6       14      9
+Output = Original Matrix
+8       5       3       17
+6       12      9       8
+19      5       16      3
+4       6       14      9
+Rearranged Matrix
+3       5       8       17
+6       8       9       12
+3       5       16      19
+4       6       9       14
+Diagonal Elements
+3                       17
+        8       9
+        5       16
+4                       14
+The sum of the diagonal elements = 76
+ */
 import java.util.*;
 class prog9 {
     static void sort(int a[], int n) {  

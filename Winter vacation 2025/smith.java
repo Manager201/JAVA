@@ -1,5 +1,11 @@
-import java.util.*;
+/* Program 8:
+A Smith number is a composite number, the sum of whose digits is the sum of the digits of its
+prime factors (excluding 1). The first few such numbers are 4, 22, 27. . .
 
+Input = 666
+Output = 666 is a Smith number
+ */
+import java.util.*;
 class smith {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,7 +16,7 @@ class smith {
         
         if (isPrime(n)==1) {
             System.out.println(n + " is not a Smith number");
-            return; 
+            System.exit(0); 
         }
         while (n != 0) {
             d = n % 10;
@@ -35,14 +41,17 @@ class smith {
         else
             System.out.println(o + " is not a Smith number");
     }
-    static int isPrime(int n) {
-        if (n <= 1) 
-        return 0;
-        for (int i = 2; i <= Math.sqrt(n); i++) 
+    static int isPrime(int n) 
+    {
+        int i,c=0;
+        for(i=1;i<=n;i++)
         {
-            if (n% i == 0) 
-        return 0;
+            if(n%i==0)
+            c++;
         }
+        if(c==2)
         return 1;
+        else
+        return 0;
     }
 }

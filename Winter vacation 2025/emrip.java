@@ -1,3 +1,9 @@
+/* Program 5:
+Write a program to input a number and check whether it is an Emrip No. or not.
+
+Input = 107
+Output = 107 is an emrip number
+ */
 import java.util.*;
 class emrip
 {

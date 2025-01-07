@@ -1,3 +1,32 @@
+/* Program 11:
+Design a program to accept a day number (between 1 and 366), year (in 4 digits) from the user to
+generate and display and corresponding date. Also accept another number 'n' from the user to compute
+and display the past date corresponding to ‘n’ days before the generated date. Display an error message if
+the value of the day number, year and n are not within the limit or not according to the condition specified.
+
+Input - 
+Day Number = 108
+Year = 2006
+Date before (n) = 18
+Output - 
+18th Apr 2006
+Date before 18 days = 31st Mar 2006
+
+Input -
+Day Number = 50
+Year = 2005
+Date before (n) = 52
+Output -
+19th Feb 2005
+Date before 52 days does not lie in the same year.
+
+Input -
+Day Number = 366
+Year = 2009
+Date before (n) = 52
+Output = 
+Invalid Day Number!
+ */
 import java.util.*;
 class prog11
  
@@ -77,12 +106,7 @@ class prog11
         {
             System.out.println("Invalid year");
             System.exit(0);
-        }
-        if (n > dn) 
-        {
-            System.out.println("Date before " + n + " days does not lie in the same year.");
-            System.exit(0);
-        }
+        }       
         if (n < 1 || n > 366) 
         {
             System.out.println("Invalid date");
@@ -94,7 +118,15 @@ class prog11
         System.out.println(out1);
 
         int newdn = dn - n;
+        if (n > dn) 
+        {
+            System.out.println("Date before " + n + " days does not lie in the same year.");
+            System.exit(0);
+        }
+        else
+        {
         String out2 = obj.check(newdn, y);
         System.out.println("Date before " + n + " days = " + out2);
+        }
     }
 }

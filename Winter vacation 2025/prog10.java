@@ -1,3 +1,11 @@
+/* Program 10:
+Write a program to input a sentence which may be terminated by either ‘.’ Or ‘?’. The words are
+separated by one blank space and are in Upper Case. Form another sentence where length of first word
+should be 1, length of second word should be 2 and so on. The last word will contain remaining letters.
+
+Input = A MORNING WALK IS A BLESSING FOR THE WHOLE DAY.
+Output = A MO RNI NGWA LKISA BLESSI NGFORTH EWHOLEDA Y.
+ */
 import java.util.*;
 class prog10 {
     public static void main(String[] args) {

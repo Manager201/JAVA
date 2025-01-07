@@ -1,3 +1,9 @@
+/* Program 2:
+Write a program to input a number and check whether it is a Lead No. or not.
+
+Input = 1452
+Output = 1452 is a lead number
+ */
 import java.util.*;
 class lead1
 {
