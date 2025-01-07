@@ -5,7 +5,7 @@ Input = 273
 Output = 273 is a fascinating number
  */
 import java.util.*;
-class fascinating {
+class pg7_fascinating {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");

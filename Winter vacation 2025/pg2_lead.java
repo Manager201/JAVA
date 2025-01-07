@@ -5,7 +5,7 @@ Input = 1452
 Output = 1452 is a lead number
  */
 import java.util.*;
-class lead1
+class pg2_lead
 {
     public static void main(String[] args) 
         {

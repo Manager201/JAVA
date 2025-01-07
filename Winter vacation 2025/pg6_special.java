@@ -5,7 +5,7 @@ Input = 145
 Output = 145 is a special number
  */
 import java.util.*;
-class special
+class pg6_special
 {
     static int isfactorial(int n)
     {

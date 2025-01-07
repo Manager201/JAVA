@@ -29,7 +29,7 @@ Diagonal Elements
 The sum of the diagonal elements = 76
  */
 import java.util.*;
-class prog9 {
+class pg9_matrix {
     static void sort(int a[], int n) {  
         int i, j, s, si, t;
         for (i = 0; i < n - 1; i++) {

@@ -6,7 +6,7 @@ Input = 666
 Output = 666 is a Smith number
  */
 import java.util.*;
-class smith {
+class pg8_smith {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");

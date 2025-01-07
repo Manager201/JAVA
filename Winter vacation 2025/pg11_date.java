@@ -28,7 +28,7 @@ Output =
 Invalid Day Number!
  */
 import java.util.*;
-class prog11
+class pg11_date
  
 {
     int[] m = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
@@ -113,7 +113,7 @@ class prog11
             System.exit(0);
         }
 
-        prog11 obj = new prog11();
+        pg11_date obj = new pg11_date();
         String out1 = obj.check(dn, y);
         System.out.println(out1);
 

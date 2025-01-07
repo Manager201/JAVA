@@ -5,7 +5,7 @@ Input = 2345
 Output = 2345 is a twist number
  */
 import java.util.*;
-class twist
+class pg3_twist
 {
     public static void main(String[] args) {
         {

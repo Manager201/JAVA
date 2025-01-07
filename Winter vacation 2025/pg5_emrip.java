@@ -5,7 +5,7 @@ Input = 107
 Output = 107 is an emrip number
  */
 import java.util.*;
-class emrip
+class pg5_emrip
 {
     static int isprime(int a)
     {

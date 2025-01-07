@@ -5,7 +5,7 @@ Input = 30004
 Output = 30004 is a zippo number
  */
 import java.util.*;
-class zippo
+class pg4_zippo
 {
     public static void main(String[] args) {
         {

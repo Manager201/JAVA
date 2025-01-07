@@ -5,7 +5,7 @@ Input = 3453
 Output = 3453 is a cyclo number
  */
 import java.util.*;
-class cyclo
+class pg1_cyclo
 {
     public static void main(String[] args) 
         {
