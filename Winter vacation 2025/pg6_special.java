@@ -16,7 +16,6 @@ class pg6_special
     }
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        {
             System.out.println("Enter a number:");
             int a,b,s=0;
             a=sc.nextInt();
@@ -30,6 +29,5 @@ class pg6_special
             System.out.println(a+" is a special number");
             else
             System.out.println(a+" is not a special number");
-        }
     }
 }
