@@ -1,6 +1,7 @@
 /* Program 8:
 A Smith number is a composite number, the sum of whose digits is the sum of the digits of its
 prime factors (excluding 1). The first few such numbers are 4, 22, 27. . .
+Write a program to input a number and display whether the number is a Smith number or not.
 
 Input = 666
 Output = 666 is a Smith number
