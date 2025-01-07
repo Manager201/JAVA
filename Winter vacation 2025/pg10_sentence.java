@@ -23,9 +23,7 @@ class pg10_sentence
             {
                 k = k + i; 
                 if (k > l) 
-                { 
                     k = l;
-                }
                 while (j <= k) 
                 { 
                     s1 = s1 + s.charAt(j - 1);
