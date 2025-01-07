@@ -7,7 +7,7 @@ Output = 2345 is a twist number
 import java.util.*;
 class pg3_twist
 {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
         {
             Scanner sc=new Scanner(System.in);
             System.out.println("Enter a number:");
@@ -22,6 +22,5 @@ class pg3_twist
             else 
             System.out.println(a+" is not a twist number");
             
-        }
-    }
+        } 
 }
