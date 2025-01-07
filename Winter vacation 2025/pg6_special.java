@@ -11,9 +11,7 @@ class pg6_special
     {
         int i,f=1;
         for(i=1;i<=n;i++)
-        {
             f=f*i;
-        }
         return f;
     }
     public static void main(String[] args) {
