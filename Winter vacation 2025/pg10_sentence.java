@@ -30,14 +30,13 @@ class pg10_sentence {
                     s1 = s1 + s.charAt(j - 1);
                     j++;
                 }
-                if (j <= l) { 
+                if (j <= l) 
                     s1 = s1 + " ";
-                }
                 i++;
             }
             System.out.println(s1);
-        } else {
+        } 
+        else 
             System.out.println("The sentence must end with '.' or '?'.");
-        }
     }
 }
