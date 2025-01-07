@@ -6,14 +6,26 @@ Input = 666
 Output = 666 is a Smith number
  */
 import java.util.*;
-class pg8_smith {
+class pg8_smith 
+{
+    static int isPrime(int n) 
+    {
+        int i,c=0;
+        for(i=1;i<=n;i++)
+        {
+            if(n%i==0)
+            c++;
+        }
+        if(c==2)
+        return 1;
+        else
+        return 0;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
         int n = sc.nextInt();
         int i = 2, m = n, o = n, d, s = 0, s1 = 0, a;
-
-        
         if (isPrime(n)==1) {
             System.out.println(n + " is not a Smith number");
             System.exit(0); 
@@ -41,17 +53,5 @@ class pg8_smith {
         else
             System.out.println(o + " is not a Smith number");
     }
-    static int isPrime(int n) 
-    {
-        int i,c=0;
-        for(i=1;i<=n;i++)
-        {
-            if(n%i==0)
-            c++;
-        }
-        if(c==2)
-        return 1;
-        else
-        return 0;
-    }
+    
 }
