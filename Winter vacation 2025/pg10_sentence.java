@@ -7,11 +7,12 @@ Input = A MORNING WALK IS A BLESSING FOR THE WHOLE DAY.
 Output = A MO RNI NGWA LKISA BLESSI NGFORTH EWHOLEDA Y.
  */
 import java.util.*;
-class pg10_sentence {
-    public static void main(String[] args) {
+class pg10_sentence 
+{
+    public static void main(String[] args) 
+    {
         String str = "", s = "", s1 = "";
         Scanner sc = new Scanner(System.in);
-
         System.out.println("Enter a sentence");
         str = sc.nextLine();
         if (str.endsWith(".") || str.endsWith("?")) 
@@ -22,22 +23,19 @@ class pg10_sentence {
             {
                 k = k + i; 
                 if (k > l) 
-                { 
                     k = l;
-                }
                 while (j <= k) 
                 { 
                     s1 = s1 + s.charAt(j - 1);
                     j++;
                 }
-                if (j <= l) { 
+                if (j <= l) 
                     s1 = s1 + " ";
-                }
                 i++;
             }
             System.out.println(s1);
-        } else {
+        } 
+        else 
             System.out.println("The sentence must end with '.' or '?'.");
-        }
     }
 }

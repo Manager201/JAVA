@@ -5,20 +5,23 @@ Input = 273
 Output = 273 is a fascinating number
  */
 import java.util.*;
-class pg7_fascinating {
-    public static void main(String[] args) {
+class pg7_fascinating 
+{
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number:");
         int a, i = 0, n, m, d, c = 0, e = 0;
         String w = "";
         a = sc.nextInt();
-        for (i = 1; i <= 3; i++) {
+        for (i = 1; i <= 3; i++) 
             w = w + Integer.toString(a * i);
-        }
         n = Integer.parseInt(w);
         m = n;
-        for (i = 0; i <= 9; i++) {
-            while (n != 0) {
+        for (i = 0; i <= 9; i++) 
+        {
+            while (n != 0) 
+            {
                 d = n % 10;
                 if (d == i)
                     c++;

@@ -43,7 +43,7 @@ class pg11_date
         String mon = "", date = "";
         for (int i = 1; i < m.length; i++) 
         {
-            s += m[i];
+            s =s+ m[i];
             if (s >= dn) 
             {
                 mon = mn[i];
@@ -107,7 +107,7 @@ class pg11_date
             System.out.println("Invalid year");
             System.exit(0);
         }       
-        if (n < 1 || n > 366) 
+        if (n < 0) 
         {
             System.out.println("Invalid date");
             System.exit(0);
