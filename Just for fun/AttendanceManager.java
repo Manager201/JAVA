@@ -49,7 +49,10 @@ public class AttendanceManager {
                 default:
                     System.out.println("Invalid choice. Please select a valid option.");
             }
-        } while (choice != 0);
+            System.out.println("Enter -1 to restart");
+            if(scanner.nextInt()==-1)
+            choice=-1;
+        } while (choice == -1);
 
         scanner.close();
     }
