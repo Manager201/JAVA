@@ -15,7 +15,7 @@ class Annualper {
             switch (choice) {
                 case 1:
                     boolean validInput;
-                    String[] subjects = {"Physics:", "Chemistry:", "Bio/Math:", "Comp:", "Eng. Lit:", "Eng. Lang:"};
+                    String[] subjects = {"Physics:", "Chemistry:", "Bio/Math:", "Comp/Hindi:", "Eng. Lit:", "Eng. Lang:"};
                     double[][] marks = new double[subjects.length][4]; // 3 for input marks and 1 for calculated passing marks
         
                     do {
