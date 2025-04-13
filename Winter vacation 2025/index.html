@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Web Runner</title>
+    <style>
+        body { background-color: black; color: white; font-family: Arial, sans-serif; text-align: left; padding: 20px; }
+        .output { position: absolute; top: 10px; left: 10px; white-space: pre-wrap; }
+        input, button {
+            background: #222; color: white; border: 1px solid #444; padding: 5px 10px; margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Java Web Runner</h2>
+    
+    <input type="text" id="userInput" placeholder="Enter input">
+    <button onclick="runJava()">Run</button>
+
+    <pre class="output" id="output"></pre>
+
+    <script>
+        let selectedProgram = "program1"; // Default program
+
+        // Detect keyboard input for program selection
+        document.addEventListener("keydown", function(event) {
+            if (event.key === "1") {
+                selectedProgram = "program1";
+                document.getElementById("output").innerText = "Program 1 selected!";
+            } else if (event.key === "2") {
+                selectedProgram = "program2";
+                document.getElementById("output").innerText = "Program 2 selected!";
+            }
+        });
+
+        async function runJava() {
+            let input = document.getElementById("userInput").value;
+            let apiUrl = `https://your-backend-host.up.railway.app/run-java/${selectedProgram}`;
+
+            let response = await fetch(apiUrl, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ input })
+            });
+
+            let data = await response.json();
+            document.getElementById("output").innerText = data.output;
+        }
+    </script>
+</body>
+</html>
