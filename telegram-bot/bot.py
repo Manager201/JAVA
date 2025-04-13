@@ -17,7 +17,7 @@ api_hash = '048b23e17b56163581cefa5131b44bff'
 client = TelegramClient('bot_session', api_id, api_hash)
 
 # Globals
-sessions = {}         # user_id -> username
+session1s = {}         # user_id -> username
 login_states = {}     # user_id -> login step
 file_sessions = {}    # user_id -> file data
 cancel_tokens = {}    # user_id -> cancel flag
