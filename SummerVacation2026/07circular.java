@@ -15,7 +15,58 @@ Output: 197
 719
 197 is a Circular Prime.
 Example 2- Input n=29
-Output: 19
+Output: 29
 92
 29 is not a Circular Prime.
  */
+import java.util.*;
+class circular_prime
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter a positive number : ");
+        int n,len,i,digit=0,err=0;
+        String str="",str2="",str1="";
+        n=sc.nextInt();
+        if(n<0)
+        {
+            System.out.println("Retry with a positive number.");
+            System.exit(0);
+        }
+        if (isprime(n)==false) {
+            System.out.println(n + " is not a Circular Prime.");
+            System.exit(0);
+        }
+        str = Integer.toString(n);
+        len = str.length();
+        str1 = str;
+        System.out.println(str);
+        while (!str2.equals(str))
+        {
+            str2=str1.substring(1,len)+str1.charAt(0);
+            if(!str2.equals(str))
+            System.out.println(str2);
+            if(isprime(Integer.parseInt(str2))==false)
+            {
+                err++;
+                break;
+            }
+            str1=str2;
+        }
+        if(str2.equals(str)&&err==0)
+        System.out.println(str+" is a Circular Prime.");
+        else
+        System.out.println(str+" is not a Circular Prime.");
+    }
+    static boolean isprime(int a)
+    {
+        int i,count=0;
+        for(i=1;i<=a;i++)
+        if(a%i==0)
+        count++;
+        if(count==2)
+        return true;
+        else 
+        return false;
+    }
+}
