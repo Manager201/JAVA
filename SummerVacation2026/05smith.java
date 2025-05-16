@@ -16,9 +16,7 @@ import java.util.*;
 class smith
 {
     static int n;
-    static String pf="";
-    static String sod="";
-    static String sof="";
+    static String pf="",sod="",sof="";
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
