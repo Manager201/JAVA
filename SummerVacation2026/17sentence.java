@@ -8,7 +8,7 @@ A IS TODAY COMPUTER PRACTICAL.
 Words that begin with a vowel: A, IS
  */
 import java.util.*;
-class sentenceoi
+class sentenceo
 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
