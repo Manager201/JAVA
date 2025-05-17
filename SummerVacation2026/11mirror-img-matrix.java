@@ -18,3 +18,47 @@ Mirror Image Matrix
 8 2 14 5
 4 16 12 7
  */
+import java.util.*;
+class mirror_img
+{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int r,c,i,j;
+        System.out.print("Enter value of row for an array : ");
+        r=sc.nextInt();
+        System.out.print("Enter value of column for an array : ");
+        c=sc.nextInt();
+        int a[][]=new int[r][c];
+        System.out.println("Enter elements of the array -");
+        for(i=0;i<r;i++)
+        {
+            for(j=0;j<c;j++)
+            {
+                a[i][j]=sc.nextInt();
+                if(a[i][j]<0)
+                {
+                    System.out.println("Retry with a positive number.");
+                    System.exit(0);
+                }
+            }
+        }
+        System.out.println("Original Matrix: ");
+        for(i=0;i<r;i++)
+        {
+            for(j=0;j<c;j++)
+            {
+                System.out.print(a[i][j]+" ");
+            }
+            System.out.println();
+        }
+        System.out.println("- - - - - - - - - - - - - - - - - - - - -\nMirror Image Matrix");
+        for(i=r-1;i>=0;i--)
+        {
+            for(j=0;j<c;j++)
+            {
+                System.out.print(a[i][j]+" ");
+            }
+            System.out.println();
+        }
+    }
+}
