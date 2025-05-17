@@ -13,12 +13,11 @@ class text
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a sentence:");
         String str,str2="",w="";
-        int len,i;
+        int i;
         str=sc.nextLine();
         str=str.replace(",","");
         str=str+" ";
-        len=str.length();
-        for(i=0;i<len;i++)
+        for(i=0;i<str.length();i++)
         {
             char ch=str.charAt(i);
             if(ch!=' ')
