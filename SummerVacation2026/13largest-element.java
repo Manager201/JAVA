@@ -53,7 +53,7 @@ class largest_elem
         System.out.println("Sorted list:");
         original_matrix(b, n);
     }
-    //original matirx : task 1
+    //original matrix : task 1
     static void original_matrix(int a[][],int n)
     {
         for(i=0;i<n;i++)
