@@ -119,23 +119,31 @@ class smallest_elem
 }
 /*
 terminal output :
+Enter order 'n' for a square matrix: 4
+Enter elements of the matrix-
+8
+45
+1
+-5
+Retry with a positive number.
+
 Enter order 'n' for a square matrix: 3
 Enter elements of the matrix-
-3
-1
-7
-4
-6
-9
 8
-2
+12
+4
 5
-3  1  7  
-4  6  9  
-8  2  5  
-The smallest element 1 is in row 1 and column 2
+9
+14
+7
+6
+9 
+8  12 4  
+5  9  14 
+7  6  9  
+The smallest element 4 is in row 1 and column 3
 Sorted Matrix is:
-7  3  1  
-9  6  4  
-8  5  2  
+12 8  4  
+14 9  5  
+9  7  6  
  */

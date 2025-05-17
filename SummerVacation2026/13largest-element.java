@@ -131,24 +131,32 @@ class largest_elem
 }
 /*
 terminal output :
-Enter order 'n' for a square matrix: 3
+Enter order 'n' for a square matrix: 4
 Enter elements of the matrix-
 5
-8
-3
-7
-4
+48
 6
+-8
+Retry with a positive number.
+
+Enter order 'n' for a square matrix: 3
+Enter elements of the matrix-
+12
+8
+9
+4
+16
+7
+3
 9
 1
-2
-5  8  3  
-7  4  6  
-9  1  2  
-The largest element 9 is in row 3 and column 1
-The second largest element 8 is in row 1 and column 2
+12 8  9  
+4  16 7  
+3  9  1  
+The largest element 16 is in row 2 and column 2
+The second largest element 12 is in row 2 and column 2
 Sorted list:
-3  5  8  
-4  6  7  
-1  2  9 
+8  9  12 
+4  7  16 
+1  3  9  
  */
