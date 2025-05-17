@@ -27,7 +27,7 @@ Output:
 Invalid Day Number!
  */
 import java.util.*;
-class day_number
+class day_numberd
  
 {
     int[] m = { 0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
