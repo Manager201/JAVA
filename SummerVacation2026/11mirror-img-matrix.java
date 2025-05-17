@@ -47,6 +47,9 @@ class mirror_img
         {
             for(j=0;j<c;j++)
             {
+                if(a[i][j]<10)
+                System.out.print(" "+a[i][j]+" ");
+                else
                 System.out.print(a[i][j]+" ");
             }
             System.out.println();
@@ -56,9 +59,24 @@ class mirror_img
         {
             for(j=0;j<c;j++)
             {
+                if(a[i][j]<10)
+                System.out.print(" "+a[i][j]+" ");
+                else
                 System.out.print(a[i][j]+" ");
             }
             System.out.println();
         }
     }
 }
+/*
+terminal output :
+Original Matrix: 
+ 4 16 12  7 
+ 8  2 14  5 
+ 6  1  3  9 
+- - - - - - - - - - - - - - - - - - - - -
+Mirror Image Matrix
+ 6  1  3  9 
+ 8  2 14  5 
+ 4 16 12  7  
+ */
