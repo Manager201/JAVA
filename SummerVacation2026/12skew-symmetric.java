@@ -117,3 +117,26 @@ class skew_matrix
         System.out.println("The sum of the border elements = "+be);
     }
 }
+/*
+terminal output :
+Enter value of row for an array : 3
+Enter value of column for an array : 3
+Enter elements of the array -
+0
+2
+-3
+-2
+0
+5
+3
+-5
+0
+Original Matrix: 
+ 0  2 -3 
+-2  0  5 
+ 3 -5  0 
+The Given Matrix is Skew Symmetric.
+The sum of the left diagonal = 0
+The sum of the right diagonal = 0
+The sum of the border elements = 0
+ */

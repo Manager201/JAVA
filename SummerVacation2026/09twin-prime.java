@@ -69,3 +69,10 @@ class twin_prime
         return bp;
     }
 }
+/*
+terminal output :
+Enter a positive number : 53
+Twin prime after number = (59, 61)
+Twin prime before number = (41, 43)
+Nearest twin prime number = (59, 61)
+ */

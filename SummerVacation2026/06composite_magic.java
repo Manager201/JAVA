@@ -15,11 +15,11 @@ class composite_magic
 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("Enter lower limit 'm' : ");
+        System.out.print("Enter lower limit 'm' : ");
         int m,n,i,count=0;
         String magicString="";
         m=sc.nextInt();
-        System.out.println("Enter higher limit 'n' : ");
+        System.out.print("Enter higher limit 'n' : ");
         n=sc.nextInt();
         if(m<0||n<0)
         {
@@ -78,4 +78,10 @@ sample outputs from 1 to 500 :
 The Composite Magic integers are: 10, 28, 46, 55, 64, 82, 91, 100, 118, 136, 145, 154, 172, 190, 
 208, 217, 226, 235, 244, 253, 262, 280, 289, 298, 316, 325, 334, 343, 352, 361, 370, 388, 406, 415, 
 424, 442, 451, 460, 469, 478, 496
+
+terminal output :
+Enter lower limit 'm' : 361
+Enter higher limit 'n' : 496
+The Composite Magic integers are: 370, 388, 406, 415, 424, 442, 451, 460, 469, 478
+Frequency of Composite Magic integers is = 10
  */

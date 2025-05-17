@@ -63,3 +63,12 @@ class twisted_prime
       return r;
     }
 }
+/*
+terminal output :
+Enter lower limit 'm':
+200
+Enter higher limit 'n':
+500
+The Twisted Prime Numbers are:  311 313 337 347 353 359 373 383 389
+Frequency of Twisted Prime Numbers is: 9
+ */

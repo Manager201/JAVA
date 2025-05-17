@@ -48,3 +48,37 @@ class sort_array
         return "Yes, Descending Order";
     }
 }
+/*
+terminal output:
+Input 1-
+Enter the size of an array : 6
+Enter array elements:
+2
+13
+18
+24
+32
+39
+{2, 13, 18, 24, 32, 39} Yes, Ascending Order
+
+Input 2-
+Enter the size of an array : 6
+Enter array elements:
+56
+42
+39
+31
+28
+16
+{56, 42, 39, 31, 28, 16} Yes, Descending Order
+
+Input 3-
+Enter the size of an array : 5
+Enter array elements:
+6
+15
+2
+56
+5
+{6, 15, 2, 56, 5} Not sorted
+ */

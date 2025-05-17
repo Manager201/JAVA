@@ -15,9 +15,9 @@ class unique_digit {
         int a, b, count, freq = 0, d, m, n, x, i;
         String print = "";
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter lower limit 'm':");
+        System.out.print("Enter lower limit 'm':");
         m = sc.nextInt();
-        System.out.println("Enter higher limit 'n':");
+        System.out.print("Enter higher limit 'n':");
         n = sc.nextInt();
 
         if (m > n) {
@@ -56,3 +56,11 @@ class unique_digit {
         System.out.println("Frequency of unique digit numbers is: " + freq);
     }
 }
+/*
+terminal output :
+Enter lower limit 'm':200
+Enter higher limit 'n':210
+The Unique digit numbers are:
+201, 203, 204, 205, 206, 207, 208, 209, 210
+Frequency of unique digit numbers is: 9
+ */

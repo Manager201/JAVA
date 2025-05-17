@@ -74,4 +74,17 @@ class circular_prime
 sample outputs from 1 to 1000:
 2, 3, 5, 7, 11, 13, 17, 31, 37, 71, 73, 79, 97, 113, 
 131, 197, 199, 311, 337, 373, 719, 733, 919, 971, 991
+
+terminal output :
+Enter a positive number : 719
+719
+197
+971
+719 is a Circular Prime.
+
+Enter a positive number : 991
+991
+919
+199
+991 is a Circular Prime.
  */

@@ -42,6 +42,13 @@ class mirror_img
                 }
             }
         }
+        original_matrix(a, r, c);
+        mirror_matrix(a, r, c);
+        
+    }
+    static void original_matrix(int a[][],int r,int c)
+    {
+        int i,j;
         System.out.println("Original Matrix: ");
         for(i=0;i<r;i++)
         {
@@ -54,15 +61,29 @@ class mirror_img
             }
             System.out.println();
         }
-        System.out.println("- - - - - - - - - - - - - - - - - - - - -\nMirror Image Matrix");
+    }
+    static void mirror_matrix(int a[][],int r,int c)
+    {
+        int k,i,j;
+        int b[][]=new int[r][c];
+        k=0;
         for(i=r-1;i>=0;i--)
         {
             for(j=0;j<c;j++)
             {
-                if(a[i][j]<10)
-                System.out.print(" "+a[i][j]+" ");
+                b[k][j]=a[i][j];
+            }
+            k++;
+        }
+        System.out.println("- - - - - - - - - - - - - - - - - - - - -\nMirror Image Matrix");
+        for(i=0;i<r;i++)
+        {
+            for(j=0;j<c;j++)
+            {
+                if(b[i][j]<10)
+                System.out.print(" "+b[i][j]+" ");
                 else
-                System.out.print(a[i][j]+" ");
+                System.out.print(b[i][j]+" ");
             }
             System.out.println();
         }
