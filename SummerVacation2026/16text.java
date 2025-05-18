@@ -15,7 +15,7 @@ class text
         String str,str2="",w="";
         int i;
         str=sc.nextLine();
-        str=str.replace(",","");
+        str=str.replace(","," ");
         str=str+" ";
         for(i=0;i<str.length();i++)
         {
