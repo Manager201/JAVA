@@ -17,6 +17,30 @@ Preface:
 This project is a compilation of Java programming assignments based on topics such as arrays, strings, matrices, prime numbers, and other number-based problems. These exercises are a part of my summer assignment for Class XII Computer Science and have been carefully designed to strengthen logical thinking, code writing skills, and conceptual clarity. Each question encouraged me to understand how Java applies to real problem-solving situations, whether through loops, functions, or data handling. Completing this project has not only improved my programming ability but also taught me how to organize my logic and write efficient, readable code. I hope this project reflects the effort, interest, and understanding I have gained through this learning process.
 
 
+Index:
+S. No.	Program Title	Page                                  No.
+-----------------------------------------------------------------
+1.	    Twisted Prime Check	                                 1
+2.	    Goldbach Numbers in Range	                           2
+3.	    Fascinating Numbers in Range	                       3
+4.	    Prime-Adam Number	                                   4
+5.	    Smith number 	                                       5
+6.	    Composite Magic number 	                             6  
+7.	    Circular Prime number                    	           7
+8.	    Unique digit numbers 	                               8
+9.	    Twin prime 	                                         9
+10.	    Array in sorted order	                              10
+11.	    Mirror image matrix	                                11
+12.	    Skew Symmetric matrix	                              12
+13.	    Largest element and ascending order matrix 	        13
+14.	    Samllest element and descending order matrix	      14
+15.	    Quiz competition	                                  15
+16.	    Word of the text in reverse order	                  16  
+17.	    String in ascending order according to their length	17
+18.	    Sentence based program 	                            18
+19.	    Date in the string format dd/ mm/ yyyy 	            19
+20.	    Date and Date before given date program	            20
+
 Conclusion:
 Working on this project has helped me build confidence in writing Java programs independently. Each question allowed me to apply a specific concept such as arrays, prime checking, string manipulation, matrix handling, and conditional logic. By testing different inputs and analyzing outputs, I developed a deeper understanding of how algorithms work behind the scenes. I also learned how to improve my logic gradually and fix errors through debugging. This experience has taught me patience and accuracy, two skills essential for any coder. Most importantly, it showed me how practical knowledge of Java can help solve real-world problems logically. I am thankful for this assignment as it gave me the opportunity to grow and reflect on how much I’ve learned so far in computer science.
 
