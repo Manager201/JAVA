@@ -112,7 +112,7 @@ class day_number
             System.exit(0);
         }
 
-        day_number obj = new day();
+        day_number obj = new day_number();
         String out1 = obj.check(dn, y);
         System.out.println(out1);
 
