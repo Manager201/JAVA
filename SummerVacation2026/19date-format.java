@@ -52,11 +52,10 @@ class date
         date=Integer.toString(d);
         month=Integer.toString(mon);
         year=Integer.toString(y);
+        if(mon<=0||mon>12||d<=0||y<1000||y>9999)
+        return false;
         if(y%4==0)
         m[2]=29;
-        if(d<=0||d>m[mon]||mon<=0||mon>12||y<1000||y>9999)
-        return false;
-        else 
         return true;
     }
     static void print()
@@ -87,3 +86,14 @@ class date
         System.out.println(date+" "+mn[mon]+"/ "+year);
     }
 }
+/*
+terminal output :
+Date: 19/ 19/ 2019
+Invalid Date!!!
+
+Date: 29/ 2/ 2024
+29th/ Feb/ 2024
+
+Date: 16/11/2024
+16th/ Nov/ 2024
+ */
