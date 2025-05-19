@@ -112,7 +112,7 @@ class day_number
             System.exit(0);
         }
 
-        pg11_date obj = new pg11_date();
+        day_number obj = new day();
         String out1 = obj.check(dn, y);
         System.out.println(out1);
 
