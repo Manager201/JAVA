@@ -6,7 +6,7 @@ for the ISC Board Examination 2026.
 This project has been completed under the guidance of Mr. Mukesh Srivastava, Computer Science Faculty at Metropolitan School. It 
 reflects the student’s understanding and application of Java concepts through a variety of problem-solving exercises.
 
-Internal Examiner: 					                  External Examiner:
+Internal Examiner: 					              External Examiner:
 Signature: _______________________  		                        Signature: _______________________  
 
 Date:  5th June 2025
