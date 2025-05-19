@@ -13,73 +13,77 @@ class sentenceo
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a sentence:");
-        String str,w="";
-        int i,k=0,l=0;
+        String str,w="",t,z="AEIOU",vowel="";
         str=sc.nextLine();
+        int i,c=0,s,si,j;
+        if(str.compareTo(str.toUpperCase())!=0)
+        {
+            System.out.println("Retry with Capital letters");
+            System.exit(0);
+        }
+        if (str.charAt(str.length() - 1) != '.') 
+        {
+            System.out.println("Invalid Input");
+            System.exit(0);
+        }
+        str=str+" ";
+        //counting words in the sentence
         for(i=0;i<str.length();i++)
         {
             char ch=str.charAt(i);
             if(ch!=' ')
                 w=w+ch;
-            else
-            {
-            k++;
-            w="";
+            else{
+                c++;
+                w="";
             }
         }
-        k++;
-        String arr[]=new String[k];
+        //creating an array for future for storing words
+        String a[]=new String[c];
+        c=0; //this counter will not be used for indexing the array within loop
+        //entering words into the array
         for(i=0;i<str.length();i++)
         {
             char ch=str.charAt(i);
             if(ch!=' ')
                 w=w+ch;
-            else
-            {
-            arr[l]=w;
-            w="";
-            l++;
+            else{
+                a[c]=w;
+                c++;//increasing index value for each and every word into array
+                w="";
             }
         }
-        int len[]=new int[k];
-        int sort_len[]=new int[k];
-        for(i=0;i<k-1;i++)
+        //selection sort on the length of words and then replacing words after comparison
+        for(i=0;i<c;i++)
         {
-            len[i]=arr[i].length();
-            sort_len[i]=len[i];
-        }
-        int s,si,t,j;
-        for(i=0;i<k-1;i++)
-        {
-            s=sort_len[i];
+            s=a[i].length();
             si=i;
+            for(j=i+1;j<c;j++)
             {
-                for(j=i+1;j<k;j++)
+                if(a[j].length()<s)
                 {
-                    if(sort_len[j]<s)
-                    {
-                        s=sort_len[j];
-                        si=j;
-                    }
+                    s=a[j].length();
+                    si=j;
                 }
-                t=sort_len[i];
-                sort_len[i]=sort_len[si];
-                sort_len[si]=t;
             }
+            t=a[i];
+            a[i]=a[si];
+            a[si]=t;
         }
-        String str2="";
-        for(i=0;i<arr.length;i++)
+        //final printing of array and finding vowel
+        for(i=0;i<c;i++)
         {
-            str2=str2+arr[index(i, len, sort_len)];
+        System.out.print(a[i]+" ");
+        if(z.indexOf(a[i].substring(0,1))>=0)
+        vowel=vowel+a[i]+", ";
         }
-        System.out.println(str2);
-    }
-    static int index(int a,int len[],int sort_len[])
-    {
-        int i,ind=0;
-        for(i=0;i<len.length;i++)
-        if(len[i]==(sort_len[a]))
-        ind=i;
-        return ind;
+        System.out.println("\nWords that begin with a vowel: "+vowel.substring(0,vowel.length()-2));
     }
 }
+/*
+terminal output :
+Enter a sentence:
+TODAY IS A COMPUTER PRACTICAL.
+A IS TODAY COMPUTER PRACTICAL. 
+Words that begin with a vowel: A, IS
+ */
