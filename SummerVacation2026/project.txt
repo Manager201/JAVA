@@ -6,7 +6,7 @@ for the ISC Board Examination 2026.
 This project has been completed under the guidance of Mr. Mukesh Srivastava, Computer Science Faculty at Metropolitan School. It 
 reflects the student’s understanding and application of Java concepts through a variety of problem-solving exercises.
 
-Internal Examiner: 					                                    External Examiner:
+Internal Examiner: 					                      External Examiner:
 Signature: _______________________  		                        Signature: _______________________  
 
 Date:  5th June 2025
@@ -33,26 +33,26 @@ readable code. I hope this project reflects the effort, interest, and understand
 Index:
 S. No.	Program Title	Page                                  No.
 -----------------------------------------------------------------
-1.	    Twisted Prime Check	                                 1
-2.	    Goldbach Numbers in Range	                           2
-3.	    Fascinating Numbers in Range	                       3
-4.	    Prime-Adam Number	                                   4
-5.	    Smith number 	                                       5
-6.	    Composite Magic number 	                             6  
-7.	    Circular Prime number                    	           7
-8.	    Unique digit numbers 	                               8
-9.	    Twin prime 	                                         9
-10.	    Array in sorted order	                              10
-11.	    Mirror image matrix	                                11
-12.	    Skew Symmetric matrix	                              12
-13.	    Largest element and ascending order matrix 	        13
-14.	    Samllest element and descending order matrix	      14
-15.	    Quiz competition	                                  15
-16.	    Word of the text in reverse order	                  16  
-17.	    String in ascending order according to their length	17
-18.	    Sentence based program 	                            18
-19.	    Date in the string format dd/ mm/ yyyy 	            19
-20.	    Date and Date before given date program	            20
+1.	    Twisted Prime Check	                                 
+2.	    Goldbach Numbers in Range	                           
+3.	    Fascinating Numbers in Range	                       
+4.	    Prime-Adam Number	                                   
+5.	    Smith number 	                                       
+6.	    Composite Magic number 	                               
+7.	    Circular Prime number                    	           
+8.	    Unique digit numbers 	                               
+9.	    Twin prime 	                                         
+10.	    Array in sorted order	                              
+11.	    Mirror image matrix	                                
+12.	    Skew Symmetric matrix	                              
+13.	    Largest element and ascending order matrix 	        
+14.	    Samllest element and descending order matrix	      
+15.	    Quiz competition	                                  
+16.	    Word of the text in reverse order	                    
+17.	    String in ascending order according to their length	
+18.	    Sentence based program 	                            
+19.	    Date in the string format dd/ mm/ yyyy 	            
+20.	    Date and Date before given date program	           
 
 Conclusion:
 Working on this project has helped me build confidence in writing Java programs independently. Each question allowed me to apply
