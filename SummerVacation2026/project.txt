@@ -1,7 +1,10 @@
 Certificate:
-This is to certify that this project titled “Java Programming Assignments on Arrays, Strings, and Number-Based Concepts” is the original and independent work of Shivendra Maurya, a student of Class XII, submitted as part of the Computer Science Project for the ISC Board Examination 2026.
+This is to certify that this project titled “Java Programming Assignments on Arrays, Strings, and Number-Based Concepts” 
+is the original and independent work of Shivendra Maurya, a student of Class XII, submitted as part of the Computer Science Project 
+for the ISC Board Examination 2026.
 
-This project has been completed under the guidance of Mr. Mukesh Srivastava, Computer Science Faculty at Metropolitan School. It reflects the student’s understanding and application of Java concepts through a variety of problem-solving exercises.
+This project has been completed under the guidance of Mr. Mukesh Srivastava, Computer Science Faculty at Metropolitan School. It 
+reflects the student’s understanding and application of Java concepts through a variety of problem-solving exercises.
 
 Internal Examiner: 					                                    External Examiner:
 Signature: _______________________  		                        Signature: _______________________  
@@ -10,11 +13,21 @@ Date:  5th June 2025
 
 
 Acknowledgement:
-I would like to express my sincere gratitude to Mr. Mukesh Srivastava, my Computer Science teacher, for his valuable guidance, support, and encouragement throughout this project. His clear explanations and consistent motivation helped me understand each concept better and complete the programs with confidence. I also thank my classmates who shared ideas, helped in debugging, and encouraged me during the coding process. My heartfelt thanks to Metropolitan School for providing me with the resources and environment to work on this project. Finally, I appreciate my family for supporting me and giving me the time and peace needed to complete the work on time.
+I would like to express my sincere gratitude to Mr. Mukesh Srivastava, my Computer Science teacher, for his valuable guidance, 
+support, and encouragement throughout this project. His clear explanations and consistent motivation helped me understand each 
+concept better and complete the programs with confidence. I also thank my classmates who shared ideas, helped in debugging, and 
+encouraged me during the coding process. My heartfelt thanks to Metropolitan School for providing me with the resources and 
+environment to work on this project. Finally, I appreciate my family for supporting me and giving me the time and peace needed 
+to complete the work on time.
 
 
 Preface:
-This project is a compilation of Java programming assignments based on topics such as arrays, strings, matrices, prime numbers, and other number-based problems. These exercises are a part of my summer assignment for Class XII Computer Science and have been carefully designed to strengthen logical thinking, code writing skills, and conceptual clarity. Each question encouraged me to understand how Java applies to real problem-solving situations, whether through loops, functions, or data handling. Completing this project has not only improved my programming ability but also taught me how to organize my logic and write efficient, readable code. I hope this project reflects the effort, interest, and understanding I have gained through this learning process.
+This project is a compilation of Java programming assignments based on topics such as arrays, strings, matrices, prime numbers,
+ and other number-based problems. These exercises are a part of my summer assignment for Class XII Computer Science and have been 
+carefully designed to strengthen logical thinking, code writing skills, and conceptual clarity. Each question encouraged me to 
+understand how Java applies to real problem-solving situations, whether through loops, functions, or data handling. Completing 
+this project has not only improved my programming ability but also taught me how to organize my logic and write efficient, 
+readable code. I hope this project reflects the effort, interest, and understanding I have gained through this learning process.
 
 
 Index:
@@ -42,5 +55,10 @@ S. No.	Program Title	Page                                  No.
 20.	    Date and Date before given date program	            20
 
 Conclusion:
-Working on this project has helped me build confidence in writing Java programs independently. Each question allowed me to apply a specific concept such as arrays, prime checking, string manipulation, matrix handling, and conditional logic. By testing different inputs and analyzing outputs, I developed a deeper understanding of how algorithms work behind the scenes. I also learned how to improve my logic gradually and fix errors through debugging. This experience has taught me patience and accuracy, two skills essential for any coder. Most importantly, it showed me how practical knowledge of Java can help solve real-world problems logically. I am thankful for this assignment as it gave me the opportunity to grow and reflect on how much I’ve learned so far in computer science.
-
+Working on this project has helped me build confidence in writing Java programs independently. Each question allowed me to apply
+ a specific concept such as arrays, prime checking, string manipulation, matrix handling, and conditional logic. By testing 
+different inputs and analyzing outputs, I developed a deeper understanding of how algorithms work behind the scenes. I also 
+learned how to improve my logic gradually and fix errors through debugging. This experience has taught me patience and accuracy, 
+two skills essential for any coder. Most importantly, it showed me how practical knowledge of Java can help solve real-world 
+problems logically. I am thankful for this assignment as it gave me the opportunity to grow and reflect on how much I’ve learned 
+so far in computer science.
