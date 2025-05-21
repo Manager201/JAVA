@@ -15,8 +15,6 @@ Write a program to input a number and display whether the number is a Smith numb
 import java.util.*;
 class smith
 {
-    static int n;
-    static String pf="",sod="",sof="";
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
@@ -37,6 +35,8 @@ class smith
             System.out.println(n+" is not a Smith number");
 
     }
+    static int n;
+    static String pf="",sod="",sof="";
     static boolean isprime(int a)
     {
         int i,count=0;
