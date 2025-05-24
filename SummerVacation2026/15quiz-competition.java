@@ -27,10 +27,10 @@ class quiz_competition
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number of participants: ");
-        int n,i,j,count=0,l;
+        int n,i,j,count=0,max;
         n=sc.nextInt();
         sc.nextLine();
-        if(n<3||n>11)
+        if(n<=3||n>=11)
         {
             System.out.println("Input size is out of range.");
             System.exit(0);
@@ -47,7 +47,7 @@ class quiz_competition
         System.out.println("Scores:");
         for(i=0;i<n;i++)
         {
-            for(j=0;j<n+1;j++)
+            for(j=0;j<5;j++)
             {
                 if(key[j]==arr[i][j])
                 count++;
@@ -57,10 +57,15 @@ class quiz_competition
             count=0;
         }
         System.out.println("Highest score:");
-        l=score[0];
+        max=score[0];
+        for(i=1;i<n;i++)
+        {
+            if(max<score[i])
+            max=score[i];
+        }
         for(i=0;i<n;i++)
         {
-            if(l<=score[i])
+            if(max==score[i])
             System.out.println("Participant "+(i+1));
         }
     }
