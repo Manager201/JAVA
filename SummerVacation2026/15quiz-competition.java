@@ -29,14 +29,13 @@ class quiz_competition
         System.out.print("Enter the number of participants: ");
         int n,i,j,count=0,max;
         n=sc.nextInt();
-        sc.nextLine();
         if(n<=3||n>=11)
         {
             System.out.println("Input size is out of range.");
             System.exit(0);
         }
         char arr[][]=new char[n][5];
-        char key[]={'A', 'C', 'D', 'B', 'B'};
+        char key[]=new char[5];
         int score[]=new int[n];
         for(i = 0; i < n; i++) 
         {
@@ -44,6 +43,9 @@ class quiz_competition
             for(j = 0; j < 5; j++) 
                     arr[i][j] = sc.next().charAt(0);
         }
+        System.out.print("Key: ");
+        for(i=0;i<5;i++)
+        	key[i]=sc.next().charAt(0);
         System.out.println("Scores:");
         for(i=0;i<n;i++)
         {
